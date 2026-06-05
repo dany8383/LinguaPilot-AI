@@ -5,6 +5,8 @@ Support email: simdev24@gmail.com
 
 LinguaPilot AI helps you correct, improve, rewrite, translate, and understand selected text from everyday applications (Microsoft Word, WhatsApp, email, browser forms, notes, messages, etc.). Select text, press your shortcut, and get an improved version with explanations in a popup.
 
+![LinguaPilot AI Interface](1.png)
+
 ---
 
 ## 💾 Downloads
