@@ -1,117 +1,74 @@
-# LinguaPilot AI for macOS - Client Guide
+# LinguaPilot AI — User Guide
 
-Official website: https://linguapilot.netlify.app/
-
+Official website: https://linguapilot.netlify.app/  
 Support email: simdev24@gmail.com
 
-Thank you for using LinguaPilot AI. This guide explains how to install, configure, activate, and use the macOS version.
+LinguaPilot AI helps you correct, improve, rewrite, translate, and understand selected text from everyday applications (Microsoft Word, WhatsApp, email, browser forms, notes, messages, etc.). Select text, press your shortcut, and get an improved version with explanations in a popup.
 
-## What LinguaPilot AI Does
+---
 
-LinguaPilot AI helps you correct, improve, rewrite, translate, and understand selected text from everyday applications such as Microsoft Word, email, browser forms, notes, messages, and professional writing tools.
+## 💾 Downloads
+Download the latest versions from the **Releases** section on the right:
+* 🪟 **Windows:** `LinguaPilotAI-Win_V2.1.zip` (Stable)
+* 💻 **macOS:** `LinguaPilotAI-macOS_V2.1.zip` (Beta)
 
-Select text, press the configured shortcut, and LinguaPilot AI displays a suggestion popup with an improved version, explanations, and copy/replace actions.
+---
 
-## What Is Included
+## 🪟 Windows User Guide (Stable)
 
-- `LinguaPilotAI-macOS.dmg`: the macOS installer package to give to clients.
-- `Tutorials/LinguaPilot_macOS_Setup_Guide.pdf`: full step-by-step setup guide.
-- `README.md`: this client guide.
-- `PRODUCT_DESCRIPTION.md`: product overview and sales/support description.
+### Installation
+1. Download `LinguaPilotAI-Win_V2.1.zip` and extract it.
+2. Run `LinguaPilotAI_Setup_v2.1.exe`.
+3. If Windows SmartScreen appears, click **More info** > **Run anyway**. (The app is 100% safe; this warning occurs because the software is new).
 
-## Installation On macOS
+### Quick Start
+1. Launch the app and open **Settings**.
+2. Select your provider (**Gemini, OpenAI, or Ollama**) and paste your API key if required.
+3. Click **Test provider**.
+4. Select text in any app and press the default shortcut: `Ctrl + Alt + C`.
 
-1. Open `LinguaPilotAI-macOS.dmg`.
-2. Drag `LinguaPilot AI.app` into the `Applications` folder.
-3. Open the app from `Applications`, not directly from the DMG.
-4. If macOS blocks the app because it is from an unidentified developer, right-click the app, choose `Open`, then confirm.
-5. Keep the app installed in `Applications` so automatic startup and macOS permissions work correctly.
+---
 
-## Required macOS Permissions
+## 💻 macOS User Guide (Beta)
 
-LinguaPilot AI needs permission to listen for a global shortcut and send `Command+C` to the active application so it can read the text you selected.
+### Installation & Permissions
+1. Download `LinguaPilotAI-macOS_V2.1.zip` and extract it.
+2. Drag `LinguaPilot AI.app` into your **Applications** folder. Launch it from there.
+3. If blocked by macOS, right-click the app, select **Open**, and confirm.
+4. **Mandatory:** Go to `System Settings > Privacy & Security`. Grant **Accessibility** and **Input Monitoring** permissions to `LinguaPilot AI.app`. Quit and reopen the app.
 
-After installing the app:
+### Quick Start
+1. Launch from **Applications**.
+2. Configure your provider in **Settings / API**.
+3. Select text and press the default shortcut: `Control + Option + Command + L`.
 
-1. Open `System Settings`.
-2. Go to `Privacy & Security`.
-3. Open `Accessibility`.
-4. Add and enable `LinguaPilot AI.app`.
-5. Go back to `Privacy & Security`.
-6. Open `Input Monitoring`.
-7. Add and enable `LinguaPilot AI.app`.
-8. Quit and reopen LinguaPilot AI.
+---
 
-If the shortcut is detected but no selected text is captured, check these permissions again.
+## ⚙️ Global Features (Windows & macOS)
 
-## Quick Start
+### Provider Recommendations
+* **Gemini:** Simple, quick setup via Google AI Studio.
+* **OpenAI:** Best writing quality and professional consistency.
+* **Ollama:** Recommended for local, private AI processing (no cloud tokens).
 
-1. Launch LinguaPilot AI from `Applications`.
-2. Open `Settings / API`.
-3. Choose your provider:
-   - `Gemini`: Google AI mode, requires a Gemini API key.
-   - `OpenAI`: high-quality cloud mode, requires an OpenAI API key.
-   - `Ollama`: local/private mode, requires Ollama and a local model.
-4. Paste your API key if using Gemini or OpenAI.
-5. Click `Test provider`.
-6. Select text in Word, Notes, email, or another app.
-7. Press the default shortcut:
+### License Activation
+1. In the app, navigate to the **License** section (or `Settings / API`).
+2. Copy your **Machine ID**.
+3. Send your purchase email and Machine ID to `simdev24@gmail.com`.
+4. Enter the activation key you receive (please allow up to 24 hours).
 
-```text
-Control + Option + Command + L
-```
+### System Tray & Startup
+* **Tray Menu:** Access settings, license, and stop/start listening from the system tray (Windows) or menu bar (macOS).
+* **Auto-start:** Enable "Start automatically" in Settings to keep LinguaPilot available whenever you write.
 
-8. Review the suggestion popup.
-9. Copy the improved text or replace the original selection.
+---
 
-## Recommended Providers
+## 📧 Support
+When contacting support, please include:
+- Your OS version.
+- Your selected provider (Gemini, OpenAI, or Ollama).
+- A brief description of the issue.
 
-Gemini is a simple first choice for many users because setup is quick with Google AI Studio.
+---
 
-OpenAI is recommended when you want strong writing quality and consistent professional rewriting.
-
-Ollama is recommended when privacy is the priority and you want local AI processing without cloud API usage.
-
-## Automatic Startup
-
-LinguaPilot AI can start automatically with macOS. In Settings, enable:
-
-```text
-Start automatically with macOS
-```
-
-The app is designed to launch after macOS finishes loading the user session so the global shortcut permission is available.
-
-If the shortcut does not work after a reboot, quit LinguaPilot AI and open it again from `Applications`. Then verify the app is enabled in `Accessibility` and `Input Monitoring`.
-
-## Trial And License
-
-LinguaPilot AI includes a local trial and hardware-bound license activation.
-
-To activate:
-
-1. Open LinguaPilot AI.
-2. Open `Settings / API`.
-3. Open the `License` section.
-4. Copy your `Machine ID`.
-5. Send your purchase email and Machine ID to support.
-6. Enter the activation key you receive.
-
-## Support
-
-Website: https://linguapilot.netlify.app/
-
-Email: simdev24@gmail.com
-
-For support, include:
-
-- Your macOS version.
-- Your selected provider: Gemini, OpenAI, or Ollama.
-- A short description of the issue.
-
-## Important Notes
-
-- API tokens are used only when you request a correction.
-- LinguaPilot AI does not consume Gemini/OpenAI tokens while it is only listening.
-- Ollama mode runs locally and does not use cloud API tokens.
-- For best results, install the app in `Applications` and grant the required macOS permissions.
+*Note: API tokens are used only when you request a correction. Ollama mode runs entirely locally.*
